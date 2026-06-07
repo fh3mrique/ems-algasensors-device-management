@@ -4,10 +4,10 @@ import com.algaworks_algasensors.device.management.api.client.RestClientFactory;
 import com.algaworks_algasensors.device.management.api.client.SensorMonitoringClient;
 import com.algaworks_algasensors.device.management.api.model.SensorMonitoringOutput;
 import io.hypersistence.tsid.TSID;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
-@Component
+//@Component
+//Depois da forma declarativa essa classe se tornou obsoleta
 public class SensorMonitoringClientImpl implements SensorMonitoringClient {
 
     private final RestClient restClient;
